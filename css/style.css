@@ -1,5 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: inherit;
+}
+:root {
+  --transition: all 0.3s ease;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
+}
+.logo-container .logo-img {
+  width: 4rem;
+  height: 3.5rem;
+}
+.navbar .navbar-link .navbar-items {
+  color: black;
+  transition: var(--transition);
+}
+.navbar .navbar-link .navbar-items:hover {
+  color: red;
+}
+.navbar-Aside {
+  transform: translate(120%);
+  transition: var(--transition);
+}
+.show-Aside {
+  transform: translate(0%);
+}
+.start-site {
+  background-color: #f5f5f5;
+  transition: var(--transition);
+}
+.start-site span:hover {
+  color: red;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.divider {
+  width: 0.1rem;
+  height: 1.2rem;
+  margin: auto 0.5rem;
+  background-color: black;
+  z-index: 2;
+}
+.below-list-links {
+  color: black;
 }

@@ -1,6 +1,7 @@
 ul,
 li {
   list-style: none;
+  margin-bottom: 0;
 }
 a {
   text-decoration: none;

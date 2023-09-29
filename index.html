@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -12,11 +11,115 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Argos Shop</title>
   </head>
   <body>
-    
+    <div class="start-site d-none d-md-flex flex-row-reverse pe-3">
+      <span>
+        <i class="bi bi-info-circle me-1"></i>
+        Help
+      </span>
+      <span class="divider"></span>
+      <span>
+        <i class="bi bi-floppy"></i>
+        Stores
+      </span>
+    </div>
+    <nav class="container">
+      <div class="navbar container m-auto row align-items-center">
+        <div
+          class="logo-container col-2 col-md-2 col-lg-1 align-items-center col-xl-1"
+        >
+          <img
+            src="./images/logo-argos.webp"
+            class="logo-img"
+            alt="Logo Argos"
+          />
+        </div>
+        <div
+          class="navbar-link order-md-3 d-flex flex-row-reverse justify-content-center align-items-center gap-3 col-8 col-md-4 col-lg-3 col-xl-3"
+        >
+          <a href="#" class="navbar-items">
+            <span
+              class="navbar-links d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-cart3"></i>
+              Trolley
+            </span>
+          </a>
+          <a href="#" class="navbar-items">
+            <span
+              class="navbar-links d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-suit-heart"></i>
+              Wishlist
+            </span>
+          </a>
+          <a href="#" class="navbar-items">
+            <span
+              class="navbar-links d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-person"></i>
+              Account
+            </span>
+          </a>
+          <a href="#" class="navbar-items shop-item d-md-none">
+            <span
+              class="navbar-links d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-list"></i>
+              Shop
+            </span>
+          </a>
+        </div>
+        <div class="Search mt-3 mt-md-0 order-md-2 col-md-6 col-xl-3 col-lg-7">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search product, brands or FAQs"
+            />
+            <button class="btn btn-outline-secondary" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="below-menu d-none d-md-flex mt-4 mt-xl-0 align-items-center justify-content-xl-center fs-5 order-md-4 order-xl-1 col-xl-5"
+        >
+          <ul class="below-list d-flex gap-5 align-items-center">
+            <li class="below-list-items">
+              <a href="#" class="below-list-links">
+                Shop
+                <i class="fa-solid fa-angle-up ps-1"></i>
+              </a>
+            </li>
+            <li class="below-list-items">
+              <a href="#" class="below-list-links">
+                Trending
+                <i class="fa-solid fa-angle-up ps-1"></i>
+              </a>
+            </li>
+            <li class="below-list-items">
+              <a href="#" class="below-list-links">
+                Home Sale
+                <i class="fa-solid fa-angle-up ps-1"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-Aside d-md-none">
+        <h2 class="navbar-Aside-title">Shop at Argos</h2>
+      </div>
+    </nav>
   </body>
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script
+    src="https://kit.fontawesome.com/435748e60c.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
