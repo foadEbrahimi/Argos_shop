@@ -24,7 +24,7 @@ body {
   color: red;
 }
 .navbar-Aside {
-  transform: translate(120%);
+  transform: translate(150%);
   transition: var(--transition);
 }
 .show-Aside {
@@ -43,9 +43,15 @@ body {
   width: 0.1rem;
   height: 1.2rem;
   margin: auto 0.5rem;
-  background-color: black;
+  background-color: rgb(110, 110, 110);
   z-index: 2;
 }
 .below-list-links {
+  color: black;
+}
+.offer-header ul {
+  gap: 4.5rem;
+}
+.offer-header-links {
   color: black;
 }
