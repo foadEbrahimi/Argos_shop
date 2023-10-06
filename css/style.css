@@ -12,6 +12,27 @@ body {
   font-family: "Barlow", sans-serif;
   overflow-x: hidden;
 }
+/* Root class */
+.banner__title {
+  padding: 1rem;
+  color: white;
+}
+.divider {
+  width: 0.1rem;
+  height: 1.2rem;
+  margin: auto 0.5rem;
+  background-color: rgb(110, 110, 110);
+  z-index: 2;
+}
+.card-view:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-img {
+  object-fit: contain;
+}
+/* End */
+
+/* Navber */
 .logo-container .logo-img {
   width: 4rem;
   height: 3.5rem;
@@ -39,16 +60,11 @@ body {
   transition: var(--transition);
   cursor: pointer;
 }
-.divider {
-  width: 0.1rem;
-  height: 1.2rem;
-  margin: auto 0.5rem;
-  background-color: rgb(110, 110, 110);
-  z-index: 2;
-}
 .below-list-links {
   color: black;
 }
+/* end */
+
 /* Banner */
 .Banner-img {
   width: 100%;
@@ -56,6 +72,8 @@ body {
   max-height: 500px;
   object-fit: contain;
 }
+/* end */
+
 /* Offer Header */
 .offer-header ul {
   gap: 4.5rem;
@@ -69,21 +87,26 @@ body {
   color: red;
   fill: red;
 }
+/* end */
+
 /* Section Top Category */
-.card-view:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-.card-img {
-  object-fit: contain;
-}
+
 /* Category */
 
 /* Offers */
-.Offers {
-  height: 100vh;
-}
-.banner__title {
+.offer-title {
   background: rgb(212, 33, 20);
-  padding: 1rem;
-  color: white;
 }
+/* end */
+
+/* Popular */
+.popular-title {
+  background-color: rgb(57, 19, 76);
+}
+/* end */
+
+/* Brands */
+.brand-title {
+  background-color: black;
+}
+/* end */
