@@ -110,3 +110,16 @@ body {
   background-color: black;
 }
 /* end */
+
+/* Search Store */
+.search-title {
+  background: rgb(108, 167, 226);
+  gap: 5rem;
+}
+.search-title .search-box .input-group input {
+  width: 24rem;
+}
+.search-title .search-box .input-group button{
+  height: 3rem;
+}
+/* end */
