@@ -119,7 +119,21 @@ body {
 .search-title .search-box .input-group input {
   width: 24rem;
 }
-.search-title .search-box .input-group button{
+.search-title .search-box .input-group button {
   height: 3rem;
 }
 /* end */
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+}
+.footer-accordion-links:hover {
+  color: rgb(212, 33, 20) !important;
+  transition: var(--transition);
+}
+.centerd-footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
