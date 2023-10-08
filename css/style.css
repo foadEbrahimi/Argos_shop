@@ -45,10 +45,13 @@ body {
   color: red;
 }
 .navbar-Aside {
+  height: 0;
+  width: 100%;
   transform: translate(150%);
   transition: var(--transition);
 }
 .show-Aside {
+  height: 70vh;
   transform: translate(0%);
 }
 .start-site {
@@ -62,6 +65,13 @@ body {
 }
 .below-list-links {
   color: black;
+}
+.navbar-Aside-links {
+  color: black;
+}
+.navbar-Aside-links:hover {
+  transition: var(--transition);
+  color: rgb(0, 255, 149);
 }
 /* end */
 
